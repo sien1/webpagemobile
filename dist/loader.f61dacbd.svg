@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1.6in" height="1.8in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="1100 6000 9000 1000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="406" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Bebas Neue">
+		<font-face-src>
+			<font-face-name name="BebasNeue"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="I" horiz-adv-x="190" d="M40.0038 0l109.996 0 0 700.001 -109.996 0 0 -700.001z"/>
+   <glyph unicode="N" horiz-adv-x="427" d="M274.995 0l113.007 0 0 700.001 -98.0075 0 0 -419.006 -1.99606 0 -111 419.006 -137.999 0 0 -700.001 98.9996 0 0 506.998 1.99606 0 134.999 -506.998z"/>
+   <glyph unicode="E" horiz-adv-x="367" d="M149.999 599.998l190.003 0 0 100.004 -299.999 0 0 -700.001 299.999 0 0 100.004 -190.003 0 0 204.991 151.003 0 0 100.004 -151.003 0 0 194.999z"/>
+   <glyph unicode="S" horiz-adv-x="373" d="M25.996 532.002c0,-80.0076 29.0078,-137.999 121.003,-218.999 71.9997,-62.9998 94.0036,-101.007 94.0036,-152.007 0,-49.9959 -22.0039,-67.9958 -56.9998,-67.9958 -35.0077,0 -56.9998,17.9999 -56.9998,67.9958l0 50.0077 -104.007 0 0 -43.0038c0,-112.003 56.0077,-175.995 164.007,-175.995 108,0 163.995,63.9919 163.995,175.995 0,79.9957 -28.9959,137.999 -121.003,218.999 -71.9997,62.9998 -93.9918,100.996 -93.9918,152.007 0,49.9959 19.996,68.9997 54.9919,68.9997 35.0077,0 55.0037,-19.0039 55.0037,-68.9997l0 -29.0078 103.996 0 0 22.0039c0,112.003 -54.9919,175.995 -161.999,175.995 -106.996,0 -161.999,-63.9919 -161.999,-175.995z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Bebas Neue";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .fil0 {fill:#FEFEFE; opacity:1; animation:animate 3s cubic-bezier(0, 0.93, 1, .9) infinite;}
+    .fnt0 {font-weight:normal;font-size:833.335px;font-family:'Bebas Neue';fill:rgb(209, 45, 16);}
+    .str0 {stroke:white;stroke-width:3}
+    .str1 {stroke:white;stroke-width:3}
+    .fil1 {fill:#262523; animation:animate 5s cubic-bezier(0, .1, 1, .5) infinite;}
+    .fil3 {animation:animatet 5s cubic-bezier(1, 1, 1, 1) infinite;}
+    
+    @keyframes animate {
+      0% {
+        opacity:0;
+      }
+
+      50% {
+        opacity:1;
+      }
+
+      100% {
+        opacity:0;
+      }
+    }
+    
+    @keyframes animatet {
+      0% {
+        fill:black;
+
+      }
+
+      50% {
+        fill:white;
+      }
+
+      100% {
+        fill:black;
+      }
+    }
+
+   ]]>
+
+
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2023688840032">
+   <polygon class="fil1" points="1036,6187 1365,5617 1694,5048 2357,5045 3019,5043 3353,5609 3686,6176 3357,6745 3028,7315 2366,7317 1703,7320 1370,6753 "/>
+   <polygon class="fil1" points="3118,7355 3447,6786 3776,6217 4438,6214 5101,6211 5434,6778 5768,7345 5439,7914 5110,8483 4447,8486 3785,8489 3452,7922 "/>
+   <polygon class="fil0" points="3098,4978 3427,4409 3756,3839 4418,3837 5081,3834 5414,4401 5748,4967 5419,5537 5090,6106 4427,6109 3765,6111 3432,5545 "/>
+   <polygon class="fil1" points="5178,6167 5507,5597 5836,5028 6499,5025 7161,5023 7495,5589 7828,6156 7499,6725 7170,7295 6508,7297 5845,7300 5512,6733 "/>
+   <polygon class="fil0" points="5178,3769 5507,3200 5836,2631 6499,2628 7161,2625 7495,3192 7828,3759 7499,4328 7170,4897 6508,4900 5845,4903 5512,4336 "/>
+   <polygon class="fil0" points="5188,8537 5517,7967 5846,7398 6509,7395 7171,7393 7505,7959 7838,8526 7509,9095 7180,9665 6518,9667 5855,9670 5522,9103 "/>
+   <polygon class="fil1" points="7246,7345 7575,6776 7904,6207 8566,6204 9228,6201 9562,6768 9895,7335 9566,7904 9237,8473 8575,8476 7913,8479 7579,7912 "/>
+   <polygon class="fil0" points="7250,9708 7579,9139 7908,8570 8570,8567 9233,8564 9566,9131 9900,9698 9571,10267 9242,10836 8580,10839 7917,10842 7584,10275 "/>
+  </g>
+  <polygon class="fil3 str1" points="4343,7802 4543,7802 4543,6898 4343,6898 "/>
+  <path class="fil3 str0" d="M1495 6492l0 197 1473 0c50,0 94,-17 131,-51 37,-34 56,-83 56,-146l0 -155c0,-61 -19,-110 -56,-146 -37,-36 -81,-54 -131,-54l-1202 0c-19,0 -35,-5 -50,-16 -14,-12 -21,-30 -21,-55l0 -16c0,-26 6,-44 17,-54 12,-9 29,-13 52,-13l1391 0 0 -198 -1473 0c-50,0 -94,17 -131,51 -37,34 -56,83 -56,147l0 154c0,64 19,112 56,147 37,34 81,51 131,51l1204 0c23,0 40,5 52,15 11,10 17,28 17,54l0 17c0,25 -7,43 -21,54 -14,11 -31,17 -50,17l-1389 0z"/>
+  <polygon class="fil3 str1" points="5876,6492 5876,6346 7238,6346 7238,6161 5876,6161 5876,6017 7238,6017 7238,5833 5690,5833 5690,6676 7238,6676 7238,6492 "/>
+  <polygon class="fil3 str1" points="7705,6898 7705,7827 7910,7827 7910,7122 9204,7827 9410,7827 9410,6898 9205,6898 9205,7603 7912,6898 "/>
+ </g>
+</svg>

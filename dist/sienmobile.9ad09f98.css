@@ -1,0 +1,85 @@
+* { margin:0; padding:0; }
+
+.loader {
+    height:100%;
+    width:100%;
+    z-index: 97;
+    position: fixed;
+    top:0;
+    left:0;
+    display:flex;
+    flex-direction: column;
+}
+
+.curtain-one {
+    background-color:rgb(209, 45, 16);
+    flex:1;
+    border-bottom: rgb(201, 196, 196) solid 1px;
+}
+
+.curtain-two {
+    background-color:rgb(209, 45, 16);
+    flex:1;
+}
+
+.img-loader {
+    position:fixed;
+    top:0%;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(209, 45, 16);
+    z-index: 98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remove-loader {
+    opacity:1;
+    animation: remover 3s forwards;
+}
+
+@keyframes remover {
+    80% {
+        opacity:1;
+    }
+
+    100% {
+        opacity:0;
+        display: none;
+    }
+}
+
+.plano {
+    background-color:rgba(92, 92, 92, 0.137);
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    z-index: 97;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.social {
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    writing-mode:tb;
+    text-orientation: sideways-right;
+    padding-right:3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a {
+    color:white;
+    text-decoration:none;
+    padding:15px;
+}
+
+
+
+/*# sourceMappingURL=/sienmobile.9ad09f98.css.map */
