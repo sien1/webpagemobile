@@ -23,7 +23,7 @@ viewBox="1100 6000 9000 1000"
     @font-face { font-family:"Bebas Neue";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
     .fil0 {fill:#FEFEFE; opacity:1; animation:animate 3s cubic-bezier(0, 0.93, 1, .9) infinite;}
     .fnt0 {font-weight:normal;font-size:833.335px;font-family:'Bebas Neue';fill:rgb(209, 45, 16);}
-    .str0 {stroke:white;stroke-width:3}
+    .str0 {stroke:background-color:rgb(209, 45, 16);stroke-width:3}
     .str1 {stroke:white;stroke-width:3}
     .fil1 {fill:#262523; animation:animate 5s cubic-bezier(0, .1, 1, .5) infinite;}
     .fil3 {animation:animatet 5s cubic-bezier(1, 1, 1, 1) infinite;}
@@ -42,10 +42,9 @@ viewBox="1100 6000 9000 1000"
       }
     }
     
-    @keyframes animatet {
+    @keyframes animatet { 
       0% {
         fill:black;
-
       }
 
       50% {

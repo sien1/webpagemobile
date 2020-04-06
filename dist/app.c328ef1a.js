@@ -43611,8 +43611,12 @@ var filters = {
   NoiseFilter: _filterNoise.NoiseFilter
 };
 exports.filters = filters;
-},{"@pixi/polyfill":"node_modules/@pixi/polyfill/lib/polyfill.es.js","@pixi/accessibility":"node_modules/@pixi/accessibility/lib/accessibility.es.js","@pixi/interaction":"node_modules/@pixi/interaction/lib/interaction.es.js","@pixi/utils":"node_modules/@pixi/utils/lib/utils.es.js","@pixi/app":"node_modules/@pixi/app/lib/app.es.js","@pixi/core":"node_modules/@pixi/core/lib/core.es.js","@pixi/extract":"node_modules/@pixi/extract/lib/extract.es.js","@pixi/loaders":"node_modules/@pixi/loaders/lib/loaders.es.js","@pixi/particles":"node_modules/@pixi/particles/lib/particles.es.js","@pixi/prepare":"node_modules/@pixi/prepare/lib/prepare.es.js","@pixi/spritesheet":"node_modules/@pixi/spritesheet/lib/spritesheet.es.js","@pixi/sprite-tiling":"node_modules/@pixi/sprite-tiling/lib/sprite-tiling.es.js","@pixi/text-bitmap":"node_modules/@pixi/text-bitmap/lib/text-bitmap.es.js","@pixi/ticker":"node_modules/@pixi/ticker/lib/ticker.es.js","@pixi/filter-alpha":"node_modules/@pixi/filter-alpha/lib/filter-alpha.es.js","@pixi/filter-blur":"node_modules/@pixi/filter-blur/lib/filter-blur.es.js","@pixi/filter-color-matrix":"node_modules/@pixi/filter-color-matrix/lib/filter-color-matrix.es.js","@pixi/filter-displacement":"node_modules/@pixi/filter-displacement/lib/filter-displacement.es.js","@pixi/filter-fxaa":"node_modules/@pixi/filter-fxaa/lib/filter-fxaa.es.js","@pixi/filter-noise":"node_modules/@pixi/filter-noise/lib/filter-noise.es.js","@pixi/mixin-cache-as-bitmap":"node_modules/@pixi/mixin-cache-as-bitmap/lib/mixin-cache-as-bitmap.es.js","@pixi/mixin-get-child-by-name":"node_modules/@pixi/mixin-get-child-by-name/lib/mixin-get-child-by-name.es.js","@pixi/mixin-get-global-position":"node_modules/@pixi/mixin-get-global-position/lib/mixin-get-global-position.es.js","@pixi/constants":"node_modules/@pixi/constants/lib/constants.es.js","@pixi/display":"node_modules/@pixi/display/lib/display.es.js","@pixi/graphics":"node_modules/@pixi/graphics/lib/graphics.es.js","@pixi/math":"node_modules/@pixi/math/lib/math.es.js","@pixi/mesh":"node_modules/@pixi/mesh/lib/mesh.es.js","@pixi/mesh-extras":"node_modules/@pixi/mesh-extras/lib/mesh-extras.es.js","@pixi/runner":"node_modules/@pixi/runner/lib/runner.es.js","@pixi/sprite":"node_modules/@pixi/sprite/lib/sprite.es.js","@pixi/sprite-animated":"node_modules/@pixi/sprite-animated/lib/sprite-animated.es.js","@pixi/text":"node_modules/@pixi/text/lib/text.es.js","@pixi/settings":"node_modules/@pixi/settings/lib/settings.es.js"}],"images/desert.jpg":[function(require,module,exports) {
-module.exports = "/desert.228377ee.jpg";
+},{"@pixi/polyfill":"node_modules/@pixi/polyfill/lib/polyfill.es.js","@pixi/accessibility":"node_modules/@pixi/accessibility/lib/accessibility.es.js","@pixi/interaction":"node_modules/@pixi/interaction/lib/interaction.es.js","@pixi/utils":"node_modules/@pixi/utils/lib/utils.es.js","@pixi/app":"node_modules/@pixi/app/lib/app.es.js","@pixi/core":"node_modules/@pixi/core/lib/core.es.js","@pixi/extract":"node_modules/@pixi/extract/lib/extract.es.js","@pixi/loaders":"node_modules/@pixi/loaders/lib/loaders.es.js","@pixi/particles":"node_modules/@pixi/particles/lib/particles.es.js","@pixi/prepare":"node_modules/@pixi/prepare/lib/prepare.es.js","@pixi/spritesheet":"node_modules/@pixi/spritesheet/lib/spritesheet.es.js","@pixi/sprite-tiling":"node_modules/@pixi/sprite-tiling/lib/sprite-tiling.es.js","@pixi/text-bitmap":"node_modules/@pixi/text-bitmap/lib/text-bitmap.es.js","@pixi/ticker":"node_modules/@pixi/ticker/lib/ticker.es.js","@pixi/filter-alpha":"node_modules/@pixi/filter-alpha/lib/filter-alpha.es.js","@pixi/filter-blur":"node_modules/@pixi/filter-blur/lib/filter-blur.es.js","@pixi/filter-color-matrix":"node_modules/@pixi/filter-color-matrix/lib/filter-color-matrix.es.js","@pixi/filter-displacement":"node_modules/@pixi/filter-displacement/lib/filter-displacement.es.js","@pixi/filter-fxaa":"node_modules/@pixi/filter-fxaa/lib/filter-fxaa.es.js","@pixi/filter-noise":"node_modules/@pixi/filter-noise/lib/filter-noise.es.js","@pixi/mixin-cache-as-bitmap":"node_modules/@pixi/mixin-cache-as-bitmap/lib/mixin-cache-as-bitmap.es.js","@pixi/mixin-get-child-by-name":"node_modules/@pixi/mixin-get-child-by-name/lib/mixin-get-child-by-name.es.js","@pixi/mixin-get-global-position":"node_modules/@pixi/mixin-get-global-position/lib/mixin-get-global-position.es.js","@pixi/constants":"node_modules/@pixi/constants/lib/constants.es.js","@pixi/display":"node_modules/@pixi/display/lib/display.es.js","@pixi/graphics":"node_modules/@pixi/graphics/lib/graphics.es.js","@pixi/math":"node_modules/@pixi/math/lib/math.es.js","@pixi/mesh":"node_modules/@pixi/mesh/lib/mesh.es.js","@pixi/mesh-extras":"node_modules/@pixi/mesh-extras/lib/mesh-extras.es.js","@pixi/runner":"node_modules/@pixi/runner/lib/runner.es.js","@pixi/sprite":"node_modules/@pixi/sprite/lib/sprite.es.js","@pixi/sprite-animated":"node_modules/@pixi/sprite-animated/lib/sprite-animated.es.js","@pixi/text":"node_modules/@pixi/text/lib/text.es.js","@pixi/settings":"node_modules/@pixi/settings/lib/settings.es.js"}],"images/ferrofluid.jpg":[function(require,module,exports) {
+module.exports = "/ferrofluid.45a18d39.jpg";
+},{}],"images/baby.svg":[function(require,module,exports) {
+module.exports = "/baby.27fc82ca.svg";
+},{}],"images/polo.png":[function(require,module,exports) {
+module.exports = "/polo.51490675.png";
 },{}],"app.js":[function(require,module,exports) {
 "use strict";
 
@@ -43622,29 +43626,66 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-var img_desierto = require('./images/desert.jpg');
+var img_desierto = require('./images/ferrofluid.jpg');
+
+var img_maquila = require('./images/baby.svg');
+
+var i_copo = require('./images/polo.png');
 
 var app = new PIXI.Application({
   width: window.innerWidth,
   height: window.innerHeight
 });
 var container = new PIXI.Container();
-var idesierto;
+var idesierto, imaquila;
 var loader = PIXI.Loader.shared;
 app.stage.addChild(container);
 document.body.appendChild(app.view);
 app.renderer.autoResize = true;
 app.renderer.view.style.position = "absolute";
 app.renderer.view.style.display = "block";
-app.renderer.resize(window.innerWidth, window.innerHeight);
-loader.add('idesierto', img_desierto);
-loader.load(function (loader, resources) {
-  idesierto = new PIXI.Sprite(resources.idesierto.texture); //idesierto.x = app.renderer.width / 2 ;
-  //idesierto.y = app.renderer.width / 2;
+app.renderer.resize(window.innerWidth, window.innerHeight); // loader.add('idesierto', img_desierto);
+// loader.add('imaquila', img_maquila);
 
-  app.stage.addChild(idesierto);
+loader.add('iCopo', i_copo);
+var filtroBlackWhite, filtroArena;
+var iCopo;
+loader.load(function (loader, resources) {
+  iCopo = new PIXI.Sprite(resources.iCopo.texture);
+  iCopo.anchor.set(0.5);
+  iCopo.x = app.renderer.width / 2;
+  iCopo.y = app.renderer.height / 2;
+  iCopo.scale.set(.3, .3);
+  var filtroBlackWhite = new PIXI.filters.ColorMatrixFilter();
+  filtroBlackWhite.contrast(.1, 0);
+  iCopo.filters = [filtroBlackWhite];
+  app.stage.addChild(iCopo);
+  loop(); // idesierto = new PIXI.Sprite(resources.idesierto.texture);
+  // idesierto.anchor.set(0.5);  
+  // idesierto.height =  app.renderer.height;
+  // idesierto.width = app.renderer.width;
+  // idesierto.x = app.renderer.width / 2;
+  // idesierto.y = app.renderer.height / 2;
+  // filtroBlackWhite = new PIXI.filters.ColorMatrixFilter(idesierto);
+  // filtroBlackWhite.greyscale(0);
+  // filtroArena = new PIXI.filters.NoiseFilter(.0);
+  // idesierto.filters = [filtroBlackWhite];
+  // imaquila = new PIXI.Sprite(resources.imaquila.texture);
+  // imaquila.anchor.set(0.5);
+  // imaquila.height =  app.renderer.height;
+  // imaquila.width = app.renderer.width;
+  // imaquila.x = app.renderer.width/3 ;
+  // imaquila.y = app.renderer.height / 2;
+  // app.stage.addChild(idesierto);
 });
-},{"pixi.js":"node_modules/pixi.js/lib/pixi.es.js","./images/desert.jpg":"images/desert.jpg"}],"../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+var copoY = app.renderer.height / 2 + 150;
+var swish = false; //let topeY = iCopo.y;
+
+function loop() {
+  iCopo.y += 1 / 50;
+  requestAnimationFrame(loop);
+}
+},{"pixi.js":"node_modules/pixi.js/lib/pixi.es.js","./images/ferrofluid.jpg":"images/ferrofluid.jpg","./images/baby.svg":"images/baby.svg","./images/polo.png":"images/polo.png"}],"../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -43672,7 +43713,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50950" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58674" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

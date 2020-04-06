@@ -1,10 +1,12 @@
 import * as  PIXI from 'pixi.js';
 
-let img_desierto = require('./images/desert.jpg');
+let img_desierto = require('./images/ferrofluid.jpg');
+let img_maquila = require('./images/baby.svg');
+let i_copo = require('./images/polo.png');
 
 let app = new PIXI.Application({ width: window.innerWidth, height: window.innerHeight});
 let container = new PIXI.Container();
-let idesierto;
+let idesierto, imaquila;
 let loader = PIXI.Loader.shared;
 
 app.stage.addChild(container);
@@ -16,17 +18,55 @@ app.renderer.view.style.position = "absolute";
 app.renderer.view.style.display = "block";
 app.renderer.resize(window.innerWidth, window.innerHeight);
 
+// loader.add('idesierto', img_desierto);
+// loader.add('imaquila', img_maquila);
+loader.add('iCopo', i_copo);
+let filtroBlackWhite, filtroArena;
+
+let iCopo;
 
 
-loader.add('idesierto', img_desierto);
-
-loader.load((loader, resources) => {
-    idesierto = new PIXI.Sprite(resources.idesierto.texture);
+loader.load((loader, resources) => {    
+    iCopo = new PIXI.Sprite(resources.iCopo.texture);
+    iCopo.anchor.set(0.5);
+    iCopo.x = app.renderer.width / 2;
+    iCopo.y = app.renderer.height / 2;
+    iCopo.scale.set(.3, .3);
+    let filtroBlackWhite = new PIXI.filters.ColorMatrixFilter();
+    filtroBlackWhite.contrast(.1,0);
+    iCopo.filters = [filtroBlackWhite];
     
-    //idesierto.x = app.renderer.width / 2 ;
-    //idesierto.y = app.renderer.width / 2;
+    app.stage.addChild(iCopo);
 
+    loop();
 
-
-    app.stage.addChild(idesierto);
+    // idesierto = new PIXI.Sprite(resources.idesierto.texture);
+    // idesierto.anchor.set(0.5);  
+    // idesierto.height =  app.renderer.height;
+    // idesierto.width = app.renderer.width;
+    // idesierto.x = app.renderer.width / 2;
+    // idesierto.y = app.renderer.height / 2;
+    // filtroBlackWhite = new PIXI.filters.ColorMatrixFilter(idesierto);
+    // filtroBlackWhite.greyscale(0);
+    // filtroArena = new PIXI.filters.NoiseFilter(.0);
+    // idesierto.filters = [filtroBlackWhite];
+    // imaquila = new PIXI.Sprite(resources.imaquila.texture);
+    // imaquila.anchor.set(0.5);
+    // imaquila.height =  app.renderer.height;
+    // imaquila.width = app.renderer.width;
+    // imaquila.x = app.renderer.width/3 ;
+    // imaquila.y = app.renderer.height / 2;
+    // app.stage.addChild(idesierto);
 });
+
+let copoY = (app.renderer.height / 2) + 150;
+let swish = false;
+//let topeY = iCopo.y;
+
+function loop() {
+
+    
+
+    iCopo.y += 1/50; 
+    requestAnimationFrame(loop);
+}
