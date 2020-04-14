@@ -1,4 +1,5 @@
 import * as  PIXI from 'pixi.js';
+import $ from 'jquery';
 
 let img_desierto = require('./images/ferrofluid.jpg');
 let img_maquila = require('./images/baby.svg');
@@ -25,8 +26,26 @@ let filtroBlackWhite, filtroArena;
 
 let iCopo;
 
+const starTexture = PIXI.texture.from('./images/star.png');
+const stars = [];
 
-loader.load((loader, resources) => {    
+for (let i = 0; i < starAmount; i++) {
+    const star = {
+        sprite: new PIXI.Sprite(starTexture),
+        z: 0,
+        x: 0,
+        y: 0,
+    };
+    star.sprite.anchor.x = 0.5;
+    star.sprite.anchor.y = 0.7;
+    randomizeStar(star, true);
+    app.stage.addChild(star.sprite);
+    stars.push(star);
+}
+
+
+
+loader.load((loader, resources) => {
     iCopo = new PIXI.Sprite(resources.iCopo.texture);
     iCopo.anchor.set(0.5);
     iCopo.x = app.renderer.width / 2;
@@ -64,9 +83,9 @@ let swish = false;
 //let topeY = iCopo.y;
 
 function loop() {
+    // iCopo.y -= 1/20;
+    if(iCopo.y < copoY) {
 
-    
-
-    iCopo.y += 1/50; 
+    }
     requestAnimationFrame(loop);
 }

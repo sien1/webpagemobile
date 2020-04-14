@@ -60,7 +60,8 @@
     height: 100%;
     z-index: 97;
     display:flex;
-    justify-content: flex-end;
+    padding:15px;
+    box-sizing: border-box;
 }
 
 .social {
@@ -82,31 +83,41 @@
 
 .banner {
     height:100%;
-    width:25%;
-    background-size: cover;
-    background-position: center ;
-
+    width:20%;
+    padding:2vw;
+    box-sizing: border-box;;
+    position:relative;
 }
 
 .content {
-    width:70%;
+    width:75%;
+    background-color:gray;
+
 }
 
 .banner-container {
     height: 15%;
-    
     box-sizing: border-box;
     position: relative;
 }
 
-
 .bottom-banner {
-    width:5%;
+    width:50%;
     position:absolute;
-    height:1%;
+    display: inline-block;
     bottom:0;
     background-color:rgb(243, 16, 16);
+    color:white;
+    padding:10px;
+    padding-right: 0;
+    padding-left:0;
+    overflow:hidden;
 }
+
+.bottom-banner .timeline{
+    width: 1000px;
+}
+
 
 .bottom-counter {
     width:10%;
@@ -114,4 +125,40 @@
     height:10%;
     bottom:0;
     background-color:rgb(231, 4, 4);
+}
+ 
+.icon {
+}
+
+.interactive-button{
+    display:flex;
+    flex-direction: row;
+}
+
+.interactive-button div {
+    width:100%;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.interactive-button div a  {
+    background-color:white;
+    width:100%;
+    height:1px;
+    
+}
+
+
+.interactive-button div a:active {
+    height:5px;
+}
+
+
+.indexation {
+    display: flex;
+    flex-direction: row;
 }
