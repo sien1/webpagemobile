@@ -90,9 +90,35 @@
 }
 
 .content {
-    width:75%;
-    background-color:gray;
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position:relative;
+    padding:.5vw;
+}
 
+.content .submenu {
+    padding-top:2vw;
+    width:100%;
+    height:10px;
+    color:white;
+    position:relative;
+    box-sizing: border-box;
+}
+
+.content .submenu a{
+    width:10em;
+    float:right;
+    margin-left:10px;
+    cursor: pointer;
+}
+
+.content .submenu a span {
+    font-family: 'Oswald', sans-serif;
+    font-size:13px;
+    font-weight: extra-light;
+    float:right;
 }
 
 .banner-container {
@@ -102,15 +128,16 @@
 }
 
 .bottom-banner {
-    width:50%;
+    width:88px;
     position:absolute;
     display: inline-block;
-    bottom:0;
-    background-color:rgb(243, 16, 16);
-    color:white;
+    bottom:4%;
+    color:rgb(240, 226, 226);
     padding:10px;
     padding-right: 0;
     padding-left:0;
+    font-family: 'Roboto', sans-serif;
+    font-size:10px;
     overflow:hidden;
 }
 
@@ -124,7 +151,7 @@
     position:absolute;
     height:10%;
     bottom:0;
-    background-color:rgb(231, 4, 4);
+    background-color:rgb(148, 148, 148);
 }
  
 .icon {
@@ -161,6 +188,7 @@
 .indexation {
     display: flex;
     flex-direction: row;
+    box-sizing: border-box;
 }
 
 /*# sourceMappingURL=/sienmobile.9ad09f98.css.map */
