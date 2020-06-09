@@ -43636,6 +43636,7 @@ app.renderer.autoResize = true;
 app.renderer.view.style.position = "absolute";
 app.renderer.view.style.display = "block";
 app.renderer.resize(window.innerWidth, window.innerHeight);
+app.renderer.backgroundColor = 0xfcfcfa;
 document.body.appendChild(app.view);
 loader.add('idesierto', img_desierto);
 loader.load(function (loader, resources) {
@@ -43646,13 +43647,12 @@ loader.load(function (loader, resources) {
   idesierto.width = app.renderer.width;
   idesierto.x = app.renderer.width / 2;
   idesierto.y = app.renderer.height / 2;
-  var colorMatrix = new PIXI.filters.ColorMatrixFilter(); //colorMatrix.lsd(true,1);
-  //colorMatrix.greyscale(.3);
+  var colorMatrix = new PIXI.filters.ColorMatrixFilter();
+  colorMatrix.kodachrome(true); // //colorMatrix.greyscale(.3);
 
-  colorMatrix.contrast(0, 1);
-  colorMatrix.night(.1, 1);
-  idesierto.filters = [colorMatrix];
-  app.stage.addChild(idesierto);
+  colorMatrix.contrast(.2, 1);
+  colorMatrix.night(0.08, 1); //idesierto.filters = [colorMatrix];
+  //app.stage.addChild(idesierto);
 }); // import * as  PIXI from 'pixi.js';
 // import $ from 'jquery';
 // let img_desierto = require('./images/ferrofluid.jpg');
@@ -43755,7 +43755,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61141" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53766" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
