@@ -18,6 +18,8 @@ document.body.appendChild(app.view);
 
 loader.add('idesierto', img_desierto);
 
+let filterNoise = new PIXI.filters.NoiseFilter(.2);
+
 loader.load((loader, resources) =>{
     idesierto = new PIXI.Sprite(resources.idesierto.texture);
     idesierto.anchor.set(0.5);
@@ -28,12 +30,17 @@ loader.load((loader, resources) =>{
     idesierto.y = app.renderer.height / 2;
     let colorMatrix = new PIXI.filters.ColorMatrixFilter();
     colorMatrix.kodachrome(true);
-    // //colorMatrix.greyscale(.3);
-    colorMatrix.contrast(.2,1);
-    colorMatrix.night(0.08,1);
-    //idesierto.filters = [colorMatrix];
-    //app.stage.addChild(idesierto);
+    colorMatrix.greyscale(.9);
+    colorMatrix.contrast(-.1,.2);
+    
+    idesierto.filters = [colorMatrix, filterNoise];
+    app.stage.addChild(idesierto);
 });
+
+app.ticker.add((delta) => {
+    filterNoise.uniforms.uSeed = 0.9 * (delta/3);
+    console.log(filterNoise);
+})
 
 // import * as  PIXI from 'pixi.js';
 // import $ from 'jquery';
