@@ -1,4 +1,18 @@
 import * as  PIXI from 'pixi.js';
+import $ from './import-jquery';
+import {route, router} from 'jqueryrouter';
+import data from './data.json';
+import jqueryRouter from 'jqueryrouter';
+
+
+
+
+
+
+
+
+
+
 
 let img_desierto = require('./images/desert.jpg');
 
@@ -17,7 +31,7 @@ app.renderer.backgroundColor =  0xfcfcfa;
 document.body.appendChild(app.view);
 
 loader.add('idesierto', img_desierto);
-
+ 
 let filterNoise = new PIXI.filters.NoiseFilter(.2);
 
 loader.load((loader, resources) =>{
@@ -30,17 +44,57 @@ loader.load((loader, resources) =>{
     idesierto.y = app.renderer.height / 2;
     let colorMatrix = new PIXI.filters.ColorMatrixFilter();
     colorMatrix.kodachrome(true);
-    colorMatrix.greyscale(.9);
+    colorMatrix.greyscale(.9); 
     colorMatrix.contrast(-.1,.2);
-    
     idesierto.filters = [colorMatrix, filterNoise];
     app.stage.addChild(idesierto);
+
+    
 });
 
 app.ticker.add((delta) => {
     filterNoise.uniforms.uSeed = 0.9 * (delta/3);
-    console.log(filterNoise);
+    
 })
+
+
+
+
+module.exports.power = function power() {
+    
+}
+
+
+$(document).ready(function(){
+    
+    route('/jose', function(){
+        $("#content").hide();
+    });
+
+    route('/meow', function() {
+        $("#content").hide();
+    });
+    
+    router.set('/jose');   
+});
+
+
+
+
+
+
+
+
+
+
+
+// $(document).ready(function(){
+
+    
+    
+
+//     //$('#content').toggle(location.hash == '' || location.hash == '#jose');;
+// });
 
 // import * as  PIXI from 'pixi.js';
 // import $ from 'jquery';

@@ -1,0 +1,128 @@
+* {
+ margin:  0;
+ padding: 0;
+}
+
+.plano {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    z-index: 97;
+    display:flex;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+}
+
+@media(orientation: portrait) {
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        flex:2;
+    }
+
+    .header .icon {
+        flex:1;
+        padding:15px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        flex:12.5;
+        background-image: url('images/Suiza.jpg');
+        background-repeat:no-repeat;
+        background-position:center  top;
+        height:100%;
+        width:100%;
+        position:relative;
+        overflow:hidden;
+    }
+    
+    .content .content-scroller {
+        flex:1;
+        position: relative;
+        height:100%;
+        width:100%;
+        overflow-y: scroll;
+    }
+
+    .content .content-scroller::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* Hide scrollbar for IE and Edge */
+    .content-scroller {
+        -ms-overflow-style: none;
+    }
+
+    .content .content-title {
+        background-color:rgba(24, 23, 23, 0.568);
+        color:white;
+        height:90%;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content .content-title .word-wrap {
+        color:white;
+        font-size:15vw;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .content .content-of {
+        height:1000%;
+        background-color:rgb(216, 210, 210);
+        width:100%;
+    }
+
+    .content .content-title-image {
+        background-image: url('images/Suiza.jpg');
+        background-repeat:no-repeat;
+        background-position:center  top;
+        height:100%;
+        width:100%;
+    }
+
+    .content .content-of {
+        flex:1;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        margin-top: auto;
+        flex:2;
+    } 
+
+}
+
+@media(orientation: landscape) {
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(151, 203, 238);
+        flex:2;
+    }
+
+    .content {
+        display:flex;
+        flex-direction: row;
+        flex:10;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;    
+        margin-top: auto;
+        flex:1;
+        background-color:red;
+    } 
+
+}
